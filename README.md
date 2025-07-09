@@ -1,7 +1,7 @@
 # Membros
 * Antonio Eduardo Nery de Sousa 
-* Vittor Matheus
-* Michelly Silva
+* Michelly Emanuela da Silva
+* Vittor Matheus Marcelino Cardoso
 
 # 📝 Como Inicializar a Memória de Instruções
 
