@@ -2,6 +2,7 @@
 * Antonio Eduardo Nery de Sousa 
 * Michelly Emanuela da Silva
 * Vittor Matheus Marcelino Cardoso
+* Thales Afonso Dornelas Gomes
 
 # 📝 Como Inicializar a Memória de Instruções
 
