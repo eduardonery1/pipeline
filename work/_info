@@ -1,0 +1,576 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/nery/Projects/pipeline
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1752089542
+!i10b 1
+!s100 J@Bf42a<9Q9R;nJSZl2>B2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5M0bhc_P_PXN<3geKC3g72
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1752023901
+8./adder.sv
+F./adder.sv
+!i122 0
+Z6 L0 3 11
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1752089542.000000
+!s107 ./tb_top.sv|./RISC_V.sv|./Datapath.sv|./instructionmemory.sv|./datamemory.sv|./mux4.sv|./mux2.sv|./imm_Gen.sv|./HazardDetection.sv|./ForwardingUnit.sv|./flopr.sv|./Controller.sv|./BranchUnit.sv|./ALUController.sv|./alu.sv|./RegFile.sv|./RegPack.sv|./Memoria32Data.sv|./Memoria32.sv|./ramOnChipData.v|./ramOnChip32.v|./adder.sv|
+Z9 !s90 -reportprogress|300|-f|compile_verilog|
+!i113 1
+Z10 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 XHgB5Se42fkO2QJ[MlgPO3
+R3
+IY8I;lRj>NjK8ZO`^g?jP`1
+R4
+S1
+R0
+w1752030692
+8./alu.sv
+F./alu.sv
+!i122 0
+Z11 L0 3 36
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 ./tb_top.sv|./RISC_V.sv|./Datapath.sv|./instructionmemory.sv|./datamemory.sv|./mux4.sv|./mux2.sv|./imm_Gen.sv|./HazardDetection.sv|./ForwardingUnit.sv|./flopr.sv|./Controller.sv|./BranchUnit.sv|./ALUController.sv|./alu.sv|./RegFile.sv|./RegPack.sv|./Memoria32Data.sv|./Memoria32.sv|./ramOnChipData.v|./ramOnChip32.v|./adder.sv|
+R9
+!i113 1
+R10
+vALUController
+R1
+R2
+!i10b 1
+!s100 D^Q<1zmhB>]TCJ?62l83:1
+R3
+IHOR>^TYVJ1nleT_>[8dm;0
+R4
+S1
+R0
+w1752031667
+8./ALUController.sv
+F./ALUController.sv
+!i122 0
+R11
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@a@l@u@controller
+vBranchUnit
+R1
+R2
+!i10b 1
+!s100 6mfj04GQ4<NdfP3N3I?:l2
+R3
+IhD>0c?Og=3nHAgJP]SmlD0
+R4
+S1
+R0
+R5
+8./BranchUnit.sv
+F./BranchUnit.sv
+!i122 0
+L0 3 26
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@branch@unit
+vController
+R1
+R2
+!i10b 1
+!s100 ?KIF6:YX6JV;Vmm;TP`D41
+R3
+IMYhf4EPWhWo1`PkZ[B7]40
+R4
+S1
+R0
+R5
+8./Controller.sv
+F./Controller.sv
+!i122 0
+Z13 L0 3 35
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@controller
+vdatamemory
+R1
+R2
+!i10b 1
+!s100 :U7:`NI4[Mdm`JaQ@69]m0
+R3
+Id0EL3<1DNX^1c]:A1DRUl3
+R4
+S1
+R0
+R5
+8./datamemory.sv
+F./datamemory.sv
+!i122 0
+L0 3 55
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+vDatapath
+R1
+Z14 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 ajbfFlKaE2KPEG0045aUC1
+DXx4 work 16 Datapath_sv_unit 0 22 1k3^PcQOQFD<gJ>RYENMZ2
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 cWkHWmncDlQL`5?j6eNGC1
+I:9i6;<`mDF_OlRiD0ZzAl2
+!s105 Datapath_sv_unit
+S1
+R0
+R5
+Z15 8./Datapath.sv
+Z16 F./Datapath.sv
+!i122 0
+L0 5 312
+R7
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@datapath
+XDatapath_sv_unit
+R1
+R14
+R2
+V1k3^PcQOQFD<gJ>RYENMZ2
+r1
+!s85 0
+!i10b 1
+!s100 K:EP;anA:W4111N=WXz4a0
+I1k3^PcQOQFD<gJ>RYENMZ2
+!i103 1
+S1
+R0
+R5
+R15
+R16
+!i122 0
+L0 3 0
+R7
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@datapath_sv_unit
+vflopr
+R1
+R2
+!i10b 1
+!s100 ElcDNl85mGL9dF?Xd3Za63
+R3
+I]_HWSMk@zZ^jGe>AU;DL82
+R4
+S1
+R0
+R5
+8./flopr.sv
+F./flopr.sv
+!i122 0
+L0 3 16
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+vForwardingUnit
+R1
+R2
+!i10b 1
+!s100 CEcEo:_iR9UO6Xd4H`cAC3
+R3
+InTYjnO8`PFkdGSD@YNafb2
+R4
+S1
+R0
+R5
+8./ForwardingUnit.sv
+F./ForwardingUnit.sv
+!i122 0
+L0 3 18
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@forwarding@unit
+vHazardDetection
+R1
+R2
+!i10b 1
+!s100 =:@:A`@P^b2GYnY^68bZa2
+R3
+I5l^2z7VQoWk7g>NO5Z93C2
+R4
+S1
+R0
+R5
+8./HazardDetection.sv
+F./HazardDetection.sv
+!i122 0
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@hazard@detection
+vimm_Gen
+R1
+R2
+!i10b 1
+!s100 cP:U9UCz::O[GG]YhKW1i2
+R3
+I19^MfzKUD6SomV:c@=QIT2
+R4
+S1
+R0
+R5
+8./imm_Gen.sv
+F./imm_Gen.sv
+!i122 0
+L0 3 29
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+nimm_@gen
+vinstructionmemory
+R1
+R2
+!i10b 1
+!s100 6>jnlWCg62QiF^iRiX?C81
+R3
+IXKS`dznnH_^TWhhO[Jh083
+R4
+S1
+R0
+R5
+8./instructionmemory.sv
+F./instructionmemory.sv
+!i122 0
+L0 4 23
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+vMemoria32
+R1
+R2
+!i10b 1
+!s100 oLjQ]Qb`C9VE3a1DaRF6=0
+R3
+I4fb?H1_CiP4;DOIEo[5GB0
+R4
+S1
+R0
+R5
+8./Memoria32.sv
+F./Memoria32.sv
+!i122 0
+Z17 L0 26 94
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@memoria32
+vMemoria32Data
+R1
+R2
+!i10b 1
+!s100 ]NU@J;o]<e]AW?:CD;Fg21
+R3
+IcD8lOX_Q1oYHGV1AT`eIl0
+R4
+S1
+R0
+R5
+8./Memoria32Data.sv
+F./Memoria32Data.sv
+!i122 0
+R17
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@memoria32@data
+vmux2
+R1
+R2
+!i10b 1
+!s100 9Hgm:_HaC7CH^93]dTO>S3
+R3
+IDlCE=A[P?aIH`LL]K;`KV3
+R4
+S1
+R0
+R5
+8./mux2.sv
+F./mux2.sv
+!i122 0
+L0 3 12
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+vmux4
+R1
+R2
+!i10b 1
+!s100 PkRNb1:FWO8e2Pa@XbPjl1
+R3
+IbK^<:O>4lz_;b]bBI<7>[1
+R4
+S1
+R0
+R5
+8./mux4.sv
+F./mux4.sv
+!i122 0
+L0 3 14
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+XPipe_Buf_Reg_PKG
+R1
+R2
+!i10b 1
+!s100 k?>B3>50o;E82z7G4HUZg2
+R3
+IajbfFlKaE2KPEG0045aUC1
+VajbfFlKaE2KPEG0045aUC1
+S1
+R0
+R5
+8./RegPack.sv
+F./RegPack.sv
+!i122 0
+L0 1 0
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@pipe_@buf_@reg_@p@k@g
+vramOnChip32
+R2
+!i10b 1
+!s100 ANVMcJ>zoMilMS0;3XPLA0
+R3
+Ib836bmmbFRc>>fWL15jSi2
+R4
+R0
+R5
+8./ramOnChip32.v
+F./ramOnChip32.v
+!i122 0
+Z18 L0 40 78
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+nram@on@chip32
+vramOnChipData
+R2
+!i10b 1
+!s100 _gV6BH4AzTX?eTUV22eHj0
+R3
+IX^<POFaeoB>mDRYgD10_D2
+R4
+R0
+R5
+8./ramOnChipData.v
+F./ramOnChipData.v
+!i122 0
+R18
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+nram@on@chip@data
+vRegFile
+R1
+R2
+!i10b 1
+!s100 :?B`7Zn]Gb5m`Z5KL_^>03
+R3
+Io=:PYVV:cZGIbNTMO1@H`2
+R4
+S1
+R0
+R5
+8./RegFile.sv
+F./RegFile.sv
+!i122 0
+R13
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+n@reg@file
+vriscv
+R1
+R2
+!i10b 1
+!s100 ZG:[k5[V9?jY[REj7dU`m2
+R3
+I1:12iBXVKHn<^66ZbW8Wm2
+R4
+S1
+R0
+R5
+8./RISC_V.sv
+F./RISC_V.sv
+!i122 0
+L0 3 71
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+vtb_top
+R1
+R2
+!i10b 1
+!s100 <k4lG_MkNX?2l=l78L8cm0
+R3
+I0gO@LJ9hZW6K9CdMaBCLC1
+R4
+S1
+R0
+w1752024457
+8./tb_top.sv
+F./tb_top.sv
+!i122 0
+L0 3 62
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10

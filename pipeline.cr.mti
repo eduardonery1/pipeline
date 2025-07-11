@@ -1,0 +1,158 @@
+/home/extra/Projects/pipeline/HazardDetection.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/HazardDetection.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HazardDetection
+
+Top level modules:
+	HazardDetection
+
+} {} {}} /home/extra/Projects/pipeline/datamemory.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/datamemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datamemory
+
+Top level modules:
+	datamemory
+
+} {} {}} /home/extra/Projects/pipeline/flopr.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/flopr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} /home/extra/Projects/pipeline/BranchUnit.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/BranchUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BranchUnit
+
+Top level modules:
+	BranchUnit
+
+} {} {}} /home/extra/Projects/pipeline/Datapath.sv {2 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: /home/extra/Projects/pipeline/Datapath.sv(3): (vlog-13233) Design unit "Datapath_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package Datapath_sv_unit
+-- Importing package Pipe_Buf_Reg_PKG
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} /home/extra/Projects/pipeline/ramOnChipData.v {1 {vlog -work work -stats=none /home/extra/Projects/pipeline/ramOnChipData.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ramOnChipData
+
+Top level modules:
+	ramOnChipData
+
+} {} {}} /home/extra/Projects/pipeline/Memoria32Data.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/Memoria32Data.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria32Data
+
+Top level modules:
+	Memoria32Data
+
+} {} {}} /home/extra/Projects/pipeline/alu.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} /home/extra/Projects/pipeline/ramOnChip32.v {1 {vlog -work work -stats=none /home/extra/Projects/pipeline/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} /home/extra/Projects/pipeline/ForwardingUnit.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/ForwardingUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} /home/extra/Projects/pipeline/instructionmemory.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/instructionmemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instructionmemory
+
+Top level modules:
+	instructionmemory
+
+} {} {}} /home/extra/Projects/pipeline/mux2.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} /home/extra/Projects/pipeline/imm_Gen.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/imm_Gen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imm_Gen
+
+Top level modules:
+	imm_Gen
+
+} {} {}} /home/extra/Projects/pipeline/Controller.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} /home/extra/Projects/pipeline/RegPack.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/RegPack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package Pipe_Buf_Reg_PKG
+
+Top level modules:
+	--none--
+
+} {} {}} /home/extra/Projects/pipeline/ALUController.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
+} {} {}} /home/extra/Projects/pipeline/RISC_V.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/RISC_V.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} /home/extra/Projects/pipeline/RegFile.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/RegFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} /home/extra/Projects/pipeline/mux4.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} /home/extra/Projects/pipeline/Memoria32.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} /home/extra/Projects/pipeline/tb_top.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/tb_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} /home/extra/Projects/pipeline/adder.sv {1 {vlog -work work -sv -stats=none /home/extra/Projects/pipeline/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}
