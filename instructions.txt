@@ -1,4 +1,1 @@
-lw x4,1(x0)
-add x5,x4,x4
-xor x10,x5,x4
-add x10,x10,x0
+addi x5,x0,3
